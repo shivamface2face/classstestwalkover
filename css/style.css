@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.header{
+    background-image: url("../image/banner.jpg");
+    background-size: cover;
+	background-position: center;
+	background-size:cover;
+	min-height: 550px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerlogo{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.header h1{
+    color: white;
+  
+}
+
+
+.menu ul li{
+	
+	padding: 5px 15px 0px 15px;
+}
+.cleffect{
+    display: flex;
+   margin-right: 1rem;
+   padding: 4rem;
+}
+.cleffect li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
