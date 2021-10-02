@@ -32,7 +32,51 @@
     transition: 1.5s;
 }
 .navbar .ul li a:hover{
+    cursor: pointer;
     background-color: aqua;
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+/* home section  */
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.5);
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    height: 100vh;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    position: absolute;
+    top: 13rem;
+    right: 1rem;
+}
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: white;
+}
+
+
+/* about */
